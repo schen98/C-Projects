@@ -25,8 +25,8 @@
 #include <string.h>
 #include "prio-q.h"
  
-/* Initializes the prio_q, setting up a dummy node with its 
- * next pointing to NULL.
+/* Initializes the prio_q, setting up a dummy node with 
+ * its next pointing to NULL.
  */
 void init(Prio_que *const prio_q) {
   if (prio_q != NULL) {
